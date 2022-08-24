@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  
+  body {
+    @apply bg-blackish-green;
+  }
+  
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+}
